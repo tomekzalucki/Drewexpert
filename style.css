@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #696656;
+
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header img{
+    width: 100%;
+    display: block;
+}
+
+nav{
+    background-color:#204C73;
+    font-size: 18px;
+
+}
+
+ .menu{
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.menu:hover {
+    background-color: #DE4E2A;
+}
+
+.active{
+    background-color:#DE4E2A;
+}
+
+.dostawca{
+    width: 100%;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.mapa{
+    height: 300PX;
+    width: 300PX;
+}
